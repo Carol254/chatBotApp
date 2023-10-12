@@ -1,0 +1,12 @@
+*{
+    background-color:#0a1322;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    color: #eaaa30;
+}
+.nav-link{
+    color: #fff;
+}
