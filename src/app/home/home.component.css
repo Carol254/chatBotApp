@@ -1,6 +1,6 @@
 *{
     background-color:#0a1322;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     padding: 0;
 }
@@ -9,4 +9,8 @@
 }
 .nav-link{
     color: #fff;
+}
+.sub-title{
+    color: #eaaa30;
+    text-align: center;
 }
