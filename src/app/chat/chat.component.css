@@ -1,3 +1,12 @@
 .send{
     background-color: #eaaa30;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 3px  10px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+i{
+    font-size: 20px;
 }
