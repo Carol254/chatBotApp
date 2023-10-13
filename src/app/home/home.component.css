@@ -15,3 +15,25 @@
     color: #fff;
     text-align: center;
 }
+.btns{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+.btn-1{
+    background-color: #0a1322;
+    color: #eaaa30;
+    border: 2px solid #eaaa30;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.btn-2{
+    background-color: #eaaa30;
+    color: #0a1322;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
