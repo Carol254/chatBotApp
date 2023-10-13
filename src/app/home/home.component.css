@@ -56,3 +56,7 @@
     border-radius: 50%;
     background-color: #eaaa30;
 }
+.chat i{
+    color: #eaaa30;
+    cursor: pointer;
+}
