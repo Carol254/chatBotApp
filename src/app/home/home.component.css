@@ -51,6 +51,7 @@
 .app-icons i{
     color: #eaaa30;
     cursor: pointer;
+    font-size: 20px;
 }
 .contentImg{
     width: 300px;
@@ -72,4 +73,5 @@
 .chat i{
     color: #eaaa30;
     cursor: pointer;
+    font-size: 30px;
 }
