@@ -50,3 +50,9 @@
     color: #eaaa30;
     cursor: pointer;
 }
+.contentImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #eaaa30;
+}
