@@ -57,6 +57,17 @@
     height: 300px;
     border-radius: 50%;
     background-color: #eaaa30;
+    position: relative;
+}
+.c-image{
+    position: absolute;
+    object-fit: contain;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 .chat i{
     color: #eaaa30;
