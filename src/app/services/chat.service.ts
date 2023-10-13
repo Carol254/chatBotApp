@@ -22,7 +22,7 @@ export class ChatService{
         "Hi": "Hello",
         "Who are you": "My name is Agular Bot,How may i help you",
         "How are you": "Great, thank you for asking!",
-        "What is mental wellness": "Mental wellness is all about maintaining a healthy state of mind and emotional balance. ",
+        "what is mental health": "Mental wellness is all about maintaining a healthy state of mind and emotional balance. ",
         "how can I achieve it": "To achieve it, you can start by taking care of your physical health through regular exercise and a balanced diet. Incorporating stress management techniques like meditation or mindfulness can also help. Don't forget the importance of social connections and finding a balance between work and relaxation",
         "Can you recommend some meditation apps for beginners?": "Certainly! Some great meditation apps for beginners include Headspace, Calm, and Insight Timer",
         "What are the early signs of depression": " Early signs of depression can include persistent feelings of sadness or emptiness, a loss of interest in activities you used to enjoy, changes in appetite or weight, difficulty sleeping or oversleeping, fatigue, trouble concentrating, feelings of worthlessness, and thoughts of self-harm. If you or someone you know is experiencing these symptoms, it's important to seek help from a mental health professional.",

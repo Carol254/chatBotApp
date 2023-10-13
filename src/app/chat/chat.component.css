@@ -15,5 +15,26 @@ i{
     text-align: center;
 }
 .msg{
-    margin-left:50px;
+    margin: 0 15px 20px;
+    border-radius: 10px;
+    padding: 5px 2px;
+    position: relative;
+    font-size: 10px;
+    /* width: 20%; */
 }
+
+.msg.to {
+    background-color: #eaaa30;
+    color: #0a1322;
+    margin-left: 100px;
+    text-align: right;
+  }
+  .msg.from {
+    background-color: #0a1322;
+    color: #eaaa30;
+    margin-right: 100px;
+  }
+  .msg.to + .msg.to,
+  .msg.from + .msg.from {
+    margin-top: -10px;
+  }
