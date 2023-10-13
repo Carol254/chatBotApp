@@ -38,3 +38,14 @@
     padding: 5px 10px;
     cursor: pointer;
 }
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.app-icons{
+    display: flex;
+    flex-direction: column !important;  
+}
+.app-icons i{
+    color: #eaaa30;
+}
