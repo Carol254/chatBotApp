@@ -6,7 +6,10 @@ nav{
     color: #eaaa30;
 }
 .nav-link{
-    color: #fff;
+    color: #fff;  
+}
+.nav-item{
+    margin: 0 10px;
 }
 .end{
     color: #fff !important;
