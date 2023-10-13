@@ -1,3 +1,8 @@
-<div class="d-flex" style="gap:5px"><i class="bi bi-arrow-left-square-fill" (click)="backToHome()" matTooltip="Back to Home"></i><h4>Welcome,to Wema Health... How can we help?</h4></div>
-<input type="text" placeholder="type a message...">
-<button class="send">Send</button>
+<div class="d-flex" style="gap:5px; margin-top: 5px;"><i class="bi bi-arrow-left-square-fill" (click)="backToHome()" matTooltip="Back to Home"></i><h2>Welcome,to Wema Health... How can we help?</h2></div>
+<div class="content">
+    <input type="text" [(ngModel)]="value" placeholder="type a message..." (keyup.enter)="sendMessage()"style="width: 80%;">
+    <button class="send"(click)="sendMessage()">Send</button>
+</div>
+<div *ngFor="let message of messages" class="msg">
+    {{message.content}}
+</div>
