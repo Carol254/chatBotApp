@@ -1,16 +1,8 @@
-*{
-    background-color:#0a1322;
-    /* height: 100vh; */
-    margin: 0;
-    padding: 0;
-}
-.navbar-brand{
-    color: #eaaa30;
-}
-.nav-link{
-    color: #fff;
+.main{
+    background-color:#0a1322 !important;
+    height: 100vh;
 }
 .sub-title{
-    color: #eaaa30;
     text-align: center;
+    color: #eaaa30;
 }

@@ -1,0 +1,13 @@
+nav{
+    background-color:#0a1322 !important;
+    /* position: fixed; */
+}
+.navbar-brand{
+    color: #eaaa30;
+}
+.nav-link{
+    color: #fff;
+}
+.end{
+    color: #eaaa30 !important;
+}
