@@ -26,13 +26,13 @@ i{
 .msg.to {
     background-color: #eaaa30;
     color: #0a1322;
-    margin-left: 100px;
+    margin-left: 50px;
     text-align: right;
   }
   .msg.from {
     background-color: #0a1322;
     color: #eaaa30;
-    margin-right: 100px;
+    margin-right: 50px;
   }
   .msg.to + .msg.to,
   .msg.from + .msg.from {
