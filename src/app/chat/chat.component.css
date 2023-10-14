@@ -20,14 +20,14 @@ i{
     padding: 5px 2px;
     position: relative;
     font-size: 15px;
-    /* width: 20%; */
+    width: max-content;
 }
 
 .msg.to {
     background-color: #eaaa30;
     color: #0a1322;
-    margin-left: 50px;
-    text-align: right;
+    margin-left: auto;
+    text-align: right !important;
   }
   .msg.from {
     background-color: #0a1322;
