@@ -33,6 +33,7 @@ i{
     background-color: #0a1322;
     color: #eaaa30;
     margin-right: 50px;
+    flex-wrap: wrap;
   }
   .msg.to + .msg.to,
   .msg.from + .msg.from {
