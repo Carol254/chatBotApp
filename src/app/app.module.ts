@@ -11,13 +11,15 @@ import { ChatComponent } from './chat/chat.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChatService } from './services/chat.service';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { LogInComponent } from './log-in/log-in.component';
 
 
 const routes:Routes = [
   {path:'',pathMatch: 'full',redirectTo:'home'},
   {path:'home',component:HomeComponent},
   {path:'chat',component:ChatComponent},
-  {path:'sign-up',component:SignUpComponent}
+  {path:'sign-up',component:SignUpComponent},
+  {path: 'log-in',component:LogInComponent}
 ]
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ const routes:Routes = [
     HeaderComponent,
     HomeComponent,
     ChatComponent,
-    SignUpComponent
+    SignUpComponent,
+    LogInComponent
   ],
   imports: [
     BrowserModule,
