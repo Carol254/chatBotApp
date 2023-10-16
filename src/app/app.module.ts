@@ -16,7 +16,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 const routes:Routes = [
   {path:'',pathMatch: 'full',redirectTo:'home'},
   {path:'home',component:HomeComponent},
-  {path:'chat',component:ChatComponent}
+  {path:'chat',component:ChatComponent},
+  {path:'sign-up',component:SignUpComponent}
 ]
 @NgModule({
   declarations: [
