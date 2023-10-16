@@ -34,7 +34,7 @@ export class ChatService{
     }
 
     getBotAnswer(msg: string){
-        const userMessage = new Message("user", msg);
+        const userMessage = new Message("user", msg.toLowerCase());
         this.conversation.next([userMessage]);
         const botMessage = new Message("bot", this.getBotMessage(msg));
 
@@ -49,7 +49,7 @@ export class ChatService{
       }
 
       getBotMessage(question: string) {
-        let answer = this.messageMap[question];
+        let answer = this.messageMap[question.toLowerCase()];
         return answer || this.messageMap["default"];
       }
 

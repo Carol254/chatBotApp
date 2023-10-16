@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ChatComponent } from './chat/chat.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChatService } from './services/chat.service';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 const routes:Routes = [
@@ -22,7 +23,8 @@ const routes:Routes = [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ChatComponent
+    ChatComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
