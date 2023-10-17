@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule,Routes } from '@angular/router';
-import {TooltipPosition, MatTooltipModule} from '@angular/material/tooltip';
+import { MatTooltipModule} from '@angular/material/tooltip';
 import { FormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
+
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -38,7 +42,10 @@ const routes:Routes = [
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     MatTooltipModule,
-    FormsModule
+    FormsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule
   ],
   exports:[RouterModule],
   providers: [ChatService],
