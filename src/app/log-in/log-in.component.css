@@ -13,6 +13,14 @@
     text-align: center;
     color:#eaaa30;
 }
+/* mat-form-field{
+    border-radius: 8px !important;
+    outline: #eaaa30;
+    border: 2px solid #eaaa30;
+}
+::ng-deep mat-form-field .mat-form-field-wrapper{
+    margin-bottom: -1.25em;
+ } */
 .submit{
     background-color:#eaaa30;
     color: #0a1322;
