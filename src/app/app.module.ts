@@ -12,11 +12,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChatService } from './services/chat.service';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LogInComponent } from './log-in/log-in.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 const routes:Routes = [
   {path:'',pathMatch: 'full',redirectTo:'home'},
   {path:'home',component:HomeComponent},
+  {path:'home/about-us',component:AboutUsComponent},
   {path:'chat',component:ChatComponent},
   {path:'sign-up',component:SignUpComponent},
   {path: 'log-in',component:LogInComponent}
@@ -28,7 +30,8 @@ const routes:Routes = [
     HomeComponent,
     ChatComponent,
     SignUpComponent,
-    LogInComponent
+    LogInComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
