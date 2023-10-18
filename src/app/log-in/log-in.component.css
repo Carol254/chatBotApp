@@ -1,5 +1,5 @@
 ._main{
-    background-color: #0a1322;
+    /* background-color: #0a1322; */
     width: 400px;
     height: 400px;
     border-radius: 20px;
@@ -13,16 +13,18 @@
     text-align: center;
     color:#eaaa30;
 }
-/* mat-form-field{
-    border-radius: 8px !important;
-    outline: #eaaa30;
-    border: 2px solid #eaaa30;
-}
-::ng-deep mat-form-field .mat-form-field-wrapper{
-    margin-bottom: -1.25em;
- } */
+
  mat-icon{
     color: #eaaa30;
+ }
+
+mat-form-field{
+    width: 100%;
+}
+  
+ input {
+    padding: 3px 5px;
+    border-radius: 4px;
  }
 
 .submit{

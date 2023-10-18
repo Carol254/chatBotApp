@@ -1,5 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #eaaa30 !important; 
+  }
+  
+  ::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex {
+    border: 2px solid #eaaa30 !important; 
+  }
+
+  :root{
+    --primaryColor: #eaaa30;
+    --secondaryColor:  #0a1322;
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    display: flex;
+    position: absolute;
+    top: 0.25em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    color:var(--primaryColor);
+    background-color: #fff !important;
+    border-radius: 5px;
+  }
