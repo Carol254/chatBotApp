@@ -17,3 +17,10 @@ nav{
 .end1{
     color: #eaaa30 !important;
 }
+.navbar-toggler{
+    border:1px solid #eaaa30;
+}
+.navbar-toggler-icon{
+    color: #eaaa30 !important;
+}
+
