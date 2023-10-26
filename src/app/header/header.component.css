@@ -21,6 +21,8 @@ nav{
     border:1px solid #eaaa30;
 }
 .navbar-toggler-icon{
+border-color: #eaaa30 !important;
+}
+.toggler{
     color: #eaaa30 !important;
 }
-
