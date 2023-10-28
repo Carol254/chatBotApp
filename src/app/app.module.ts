@@ -18,6 +18,7 @@ import { ChatService } from './services/chat.service';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ProductComponent } from './product/product.component';
 
 
 const routes:Routes = [
@@ -36,7 +37,8 @@ const routes:Routes = [
     ChatComponent,
     SignUpComponent,
     LogInComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
