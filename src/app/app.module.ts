@@ -27,7 +27,8 @@ const routes:Routes = [
   {path:'home/about-us',component:AboutUsComponent},
   {path:'chat',component:ChatComponent},
   {path:'sign-up',component:SignUpComponent},
-  {path: 'log-in',component:LogInComponent}
+  {path: 'log-in',component:LogInComponent},
+  {path:'products',component:ProductComponent}
 ]
 @NgModule({
   declarations: [
